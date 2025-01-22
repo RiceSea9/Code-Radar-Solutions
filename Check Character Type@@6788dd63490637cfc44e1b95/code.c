@@ -2,8 +2,9 @@
 
 
 int main() {
+    int a;
     char a;
-    scanf("%c",&a);
+    scanf("%c ",&a);
     if(a>=a||a<=z||a>=A||a<=Z){
         if(a==i||a==a||a==e||a==o||a==u){
             printf("Vowel");
