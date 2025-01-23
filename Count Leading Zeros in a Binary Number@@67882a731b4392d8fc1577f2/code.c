@@ -3,7 +3,7 @@
 
 
 int main() {
-    int a,count;
+    int a,count,num;
     scanf("%d",&a);
     count=0;
     while(!(a&(~INT_MAX));
