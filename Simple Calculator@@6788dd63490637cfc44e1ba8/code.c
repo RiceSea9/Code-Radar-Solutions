@@ -2,8 +2,10 @@
 
 
 int main() {
-    float a,b;
+    int a,b;
     char c;
+    float divs;
+    divs=a/b;
     scanf("%f %f %c",&a,&b,&c);
     if(c=='+'){
         printf("%d",a+b);
@@ -19,7 +21,7 @@ int main() {
             printf("error");
         }
         else{
-            printf("%d",a/b);
+            printf("%d",divs);
         }
 
     }
