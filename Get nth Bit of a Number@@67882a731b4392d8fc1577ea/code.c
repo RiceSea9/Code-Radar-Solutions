@@ -2,9 +2,9 @@
 
 
 int main() {
-    int a,b;
+    int a,b,bit;
     scanf("%d %d",&a,&b);
     bit=(a>>b)&1;
-    printf(bit);
+    printf("%d",bit);
     return 0;
 }
