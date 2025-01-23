@@ -3,13 +3,12 @@
 
 
 int main() {
-    int a,count,num;
+    int a,count=0;
     scanf("%d",&a);
-    count=0;
-    while(!(a&(~INT_MAX));
+    while(a!=0);
     {
         count++;
-        num<<=1;
+        num>>=1;
 
     }
     printf("%d",count);
