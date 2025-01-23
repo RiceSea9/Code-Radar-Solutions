@@ -6,7 +6,7 @@ int main() {
     char s;
     scanf("%c",&s);
     if(s=='A'){
-        printf("Execellent");
+        printf("Excellent");
     }
     else if(s=='B'){
         printf("Good");
