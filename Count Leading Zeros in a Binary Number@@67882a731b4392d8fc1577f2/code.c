@@ -8,7 +8,7 @@ int main() {
     while(a!=0)
     {
         count++;
-        num>>=1;
+        a>>=1;
 
     }
     printf("%d",count);
