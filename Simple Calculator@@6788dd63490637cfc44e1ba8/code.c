@@ -21,7 +21,7 @@ int main() {
             printf("error");
         }
         else{
-            printf("%d",divs);
+            printf("%d",a/b);
         }
 
     }
