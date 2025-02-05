@@ -14,10 +14,10 @@ int main() {
         printf("\n");
     }
     for(l=0;l>a;l++){
-        for(m=0;m>a-l;m++){
+        for(m=0;m<a-l;m++){
             printf(" ");
         }
-        for(int n=0;n>2*l+1;n++){
+        for(int n=0;n<2*l+1;n++){
             printf("*");
         }
         printf("\n");
