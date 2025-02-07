@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 void bubbleSort(){
-    printf("bubbleSort(arr,n)");
-};
+    printf("%d",bubbleSort(arr,n));
+}
 int main() {
     int n;
     scanf("%d",&n);
