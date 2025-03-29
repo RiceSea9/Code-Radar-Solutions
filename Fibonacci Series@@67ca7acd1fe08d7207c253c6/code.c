@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fibonacciSeries(n);
+void fibonacciSeries( int n);
 int main(){
     int n;
     scanf("%d",&n);
@@ -10,7 +10,7 @@ int main(){
         fib[1]=1;
         return 0;
     }
-    void fibonacciSeries(n){
+    void fibonacciSeries( int n){
         fib[i]=fib[i-1]+fib[i-2];
         printf("%d \t",fib[i]);
 
