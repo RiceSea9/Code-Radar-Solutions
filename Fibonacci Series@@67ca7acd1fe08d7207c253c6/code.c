@@ -1,21 +1,20 @@
 #include<stdio.h>
-void fibonacciSeries( int n);
+int fib(int n);
 int main(){
     int n;
     scanf("%d",&n);
-    if(n<=0){
-        printf("Invalid input\n");
-        int fib[n];
-        fib[0]=0;
-        fib[1]=1;
+    printf("%d",fib(n));
+    return 0;
+}
+int fib(int n){
+    if(n==0){
         return 0;
     }
-    void fibonacciSeries( int n){
-        fib[i]=fib[i-1]+fib[i-2];
-        printf("%d \t",fib[i]);
-
+    if(n==1){
+        return 1;
     }
-    printf("\n");
-    return 0;
-    
+    int fibNm1=fib(n-1);
+    int fibNm2=fib(n-2);
+    int fibN=fibNm1+fibNm2;
+    return fibN;
 }
