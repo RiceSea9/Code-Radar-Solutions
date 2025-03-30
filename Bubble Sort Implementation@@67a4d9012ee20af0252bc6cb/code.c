@@ -20,5 +20,5 @@ void bubbleSort(int* a , int n)
     for(i=0;i<n;i=i+1)
     {
         printf("%d ",a[i]);
-    }
+    }
 }
