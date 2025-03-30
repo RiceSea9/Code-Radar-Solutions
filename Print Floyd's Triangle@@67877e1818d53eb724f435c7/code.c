@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 int main() {
     int n;
     int c=1;
